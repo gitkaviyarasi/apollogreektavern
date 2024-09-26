@@ -1,2 +1,8 @@
 # apollogreektavern
-Team project for Apollo Greek Tavern
+Project Name : Team project for Apollo Greek Tavern.
+Collabarators : Kavi, Stephany,Maurice,Denzel.
+
+Tech used : HTML, CSS , Javascript, Bootstrap.
+
+
+
