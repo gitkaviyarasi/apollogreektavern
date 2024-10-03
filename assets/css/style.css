@@ -1,0 +1,42 @@
+
+:root {
+ /* --bs-primary-rgb:255, 0, 0; */
+  --bs-primary-rgb:102, 0, 255;
+  --bs-warning-rgb:248, 248, 109;
+
+}
+
+
+.modern{
+  padding-bottom:6rem;
+
+
+}
+
+.custom-link {
+  background-color: transparent; /* Default background */
+  color:grey ;/* Bootstrap's default link color */
+  padding: 5px;
+ 
+}
+.custom-link:hover {
+  background-color:goldenrod ;/* Light gray background */
+  color:rgb(1, 1, 60); /* Darker blue on hover */
+}
+
+/* Focus state */
+.custom-link:focus {
+  background-color: #d4a807; /* Slightly darker gray background */
+   color: #bfd7f0; /*Dark blue for focus */
+  outline:none; /* Optional: Remove focus outline */
+ } 
+
+/* Active state */
+.custom-link:active {
+  background-color: #c6f104; /* Even darker gray background */
+  color: #002752; /* Darker blue when active */
+}
+
+footer{
+  line-height: 0.5rem;
+}
