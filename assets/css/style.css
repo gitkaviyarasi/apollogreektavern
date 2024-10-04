@@ -2,7 +2,10 @@
 :root {
  /* --bs-primary-rgb:255, 0, 0; */
   --bs-primary-rgb:102, 0, 255;
-  --bs-warning-rgb:248, 248, 109;
+  /* --bs-warning-rgb:248, 248, 109; */
+  --bs-warning-rgb:49, 49, 240;
+  --bs-secondary-rgb:12, 12, 169;
+ /*--bs-secondary-rgb:rgb(49, 49, 240); */
 
 }
 
