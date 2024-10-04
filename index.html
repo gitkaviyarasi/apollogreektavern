@@ -3,189 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Website Project </title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Apollo Greek Restaurant </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    
 </head>
+
 <body>
-        <div class="navbar">
-            </div class="icon">
-                <h1 class= "logo">Apollo's Greek Tavern</h1>
+    <header>
+        <div class="col-lg-12  navbar-expand-sm   bg-secondary fixed-top pb-6">
+            <div class="row">
+                <div class="col">
+                    <img src="./assets/images/Screenshot 2024-10-02 143402.png" class="bg-secondary" alt="logo">
+                </div>
+                <div class="col">
+                    <ul class="nav">
+                        <li class="nav-item  custom-link"><a class="nav-link text-white fs-5" href="#">Home</a></li>
+                        <li class="nav-item  custom-link"><a class="nav-link text-white fs-5" href="#">Menu</a></li>
+                        <li class="nav-item  custom-link"><a class="nav-link text-white fs-5" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item custom-link"><a class="nav-link text-white fs-5" href="#">About Us</a></li>
+                        <li class="nav-item custom-link"><a class="nav-link text-white fs-5" href="#">Hours</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-5">
+            <!-- <h1 cla    ss="h1 text-primary text-center p-5">Apolo's Greek Tavern</h1> -->
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid rounded card-img-top px-5 w-100 h-100 pt-5 m-5"
+                        src="./assets/images/traditional-greek-taverna-with-blue-white-decor_198067-3743.jpg"
+                        alt="picture of Apollo Greek Tavern" style="width:50%">
+                </div>
+                <div class="col pt-5">
+                    <p class="text-black modern pt-5 m-5"><em>Modern Greek Cuisine <br>
+                            With our authentic dishes.</em>Welcome to Apollos Greek Tavern, where the rich flavors and
+                        vibrant traditions of Greek cuisine come to life.
+                        Rooted in centuries-old recipes passed down through generations, our dishes reflect the essence
+                        of Greece fresh
+                        ingredients, bold flavors, and a deep connection to the Mediterranean. From succulent grilled
+                        meats and fresh
+                        seafood to aromatic herbs and spices, every plate tells a story of family, culture, and the
+                        celebration of good food.
+                        Whether you're savoring a classic moussaka, indulging in freshly made baklava, or sharing a
+                        mezze platter with
+                        friends, we invite you to experience the warmth and hospitality of Greece right here. Join us
+                        for a culinary
+                        journey that is authentic as it is unforgettable!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- sm - small device (mobile - landscape)
+ md- medium ddevice - tab -->
+    <main class="container-fluid pt-5 mt-5">
+     
+        <section>
+        <h3 class="h3 text-center bg-secondary p-4">Our Menu</h3>
+        <h4 class="h4 bg-warning py-3 text-center">1.Entrees</h4>
+        <div class="row mt-4 p-5 d-flex justify-content-around">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card bg-secondary text-white">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded w-100 h-100" src="./assets/images/lambchops.jpg" alt="lamb chops">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <details>
+                                    <summary>
+                                        <h3 class="mb-3">Grilled Lamb</h3>
+                                    </summary>
+                                    <p>Lamb marinated and grilled to perfection,
+                                        Served with olive oil, lemon sauce and rosemary.</p>
+                                    <span>$34.99</span>
+                                    <button type="button" class="btn btn-info">Add to Order</button>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- item2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card bg-secondary text-white">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded w-100 h-200" src="./assets/images/falafel.jpeg" alt="chicken souvlaki">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <details>
+                                    <summary>
+                                        <h3 class="mb-3">Chicken Souvlaki</h3>
+                                    </summary>
+                                    <p>Grilled chicken with garlic fries, pita bread,
+                                        lettuce,vcherry tomatoes, fresh chopped orgegano. </p>
+                                    <span>$23.00</span>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card bg-secondary text-white">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded w-100 h-200" src="./assets/images/falafel.jpeg" alt="falafel platter">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <details>
+                                    <summary>
+                                        <h3 class="mb-3">Falafel  Platter</h3>
+                                    </summary>
+                                    <p>Falafel platter with hummus, tabbouleh & makali with
+                                        sides of fresh lemons, black olives, cucumber, lettuce
+                                        and pita bread</p>
+                                    <span>$22.00</span>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--start in a new row-->
+        <div class="row mt-4 p-5 d-flex justify-content-around">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card bg-secondary text-white">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded w-100 h-200" src="./assets/images/pastitsio1.jpg" alt="shrimpsouvlaki">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <details>
+                                    <summary>
+                                        <h3 class="mb-3">Shrimp Souvlaki</h3>
+                                    </summary>
+                                    <p> Grilled shrimp in a skillet with Mediterranean
+                                        marinade, garlic and fresh herbs </p>
+                                    <span>$17.00</span>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card bg-secondary text-white">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded w-100 h-200" src="./assets/images/gyro2.jpg" alt="ChickenGyro">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <details>
+                                    <summary>
+                                        <h3 class="mb-3">Gyro Sandwhich</h3>
+                                    </summary>
+                                    <p> Grilled shrimp in a skillet with Mediterranean
+                                        marinade, garlic and fresh herbs </p>
+                                    <span>$18.00</span>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card bg-secondary text-white">
+                    <div class="row">
+                        <div class="col-6 col-sm-12">
+                            <img class="img-fluid rounded w-100 h-200" src="./assets/images/pastitsio1.jpg" alt="pastitsio">
+                        </div>
+                        <div class="col-6 col-sm-12">
+                            <div class="card-body">
+                                <details>
+                                    <summary>
+                                        <h3 class="mb-3">Pastitsio</h3>
+                                    </summary>
+                                    <p> Greek lasagna made of layers of pasta, meat
+                                        sauce, and a topping of creamy béchamel. </p>
+                                    <span>$24.99</span>
+                                </details>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!-- insert in bold Drnks -->
+        <section>
+            <h4 class="h4 bg-warning py-3 text-center">2.Drinks</h4>
+            <div class="row mt-4 p-5 d-flex justify-content-around">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card bg-secondary text-white">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-200" src="./assets/images/juices.jpg" alt="greeksoda">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <details>
+                                        <summary>
+
+                                            <h3 class="mb-3">Loux Greek Soft Drink</h3>
+                                        </summary>
+                                        <p> Lemon, Orange, Sour Cherry Soda, (Lemonade)
+                                        </p>
+                                        <span>$24.99</span>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card bg-secondary text-white">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-200" src="./assets/images/capuccino.jpg" alt="Coffee">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <details>
+                                        <summary>
+                                            <h3 class="mb-3">Coffee</h3>
+                                        </summary>
+                                        <p> Capuccino, Expresso </p>
+                                        <span>$24.99</span>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card bg-secondary text-white">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-200" src="./assets/images/capuccino.jpg" alt="Coffee">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <details>
+                                        <summary>
+                                            <h3 class="mb-3">Coffee</h3>
+                                        </summary>
+                                        <p> Capuccino, Expresso </p>
+                                        <span>$24.99</span>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- desserts -->
+        <section>
+            <h4 class="h4 bg-warning py-3 text-center">3.Desserts</h4>
+            <div class="row mt-4 p-5 d-flex justify-content-around">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card bg-secondary text-white">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-200" src="./assets/images/Bakalava.jpeg" alt="greeksoda">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <details>
+                                        <summary>
+                                            <h3 class="mb-3">Baklava</h3>
+                                        </summary>
+                                        <p> Baklava. Consists of nuts, cinnamon, honey syrup and
+                                            phyllo sheets.</p>
+                                        <span>$24.99</span>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dessert2 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card bg-secondary text-white">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-200" src="./assets/images/Bougatsa.jpeg" alt="Bougatsa">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <details>
+                                        <summary>
+                                            <h3 class="mb-3">Bougatsa</h3>
+                                        </summary>
+                                        <p> Creamy Greek custard with buttery, crispy phyllo
+                                            sheet, topped with melted butter, icing and cinnamon </p>
+                                        <span>$24.99</span>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card bg-secondary text-white">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-200" src="./assets/images/ricepudding.jpeg" alt="Coffee">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <details>
+                                        <summary>
+                                            <h3 class="mb-3">Greek Rice Pudding</h3>
+                                        </summary>
+                                        <p> Greek dessert made with rice and milk topped with ground cinnamon.
+                                        </p>
+                                        <span>$24.99</span>
+                                    </details>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="menu">
-                <ul>
-                    <li><a href= "#">Home</a></li>
-                    <li><a href= "#">Menu</a></li>
-                    <li><a href= "#">Contact Us</a></li>
-                    <li><a href= "#">About Us</a></li>
+        </section>
+    
+        <footer class="p-3 bg-secondary">
+            <div class="row">
+                <!-- <div class="col"> 
+                    <ul class="list-inline text-center">
+                        <li class = "list-inline-item">
+                            <a class ="text-decoration-none  text-white" href="https://facebook.com/">Facebook</a>
+                        </li>
+                        <li class = "list-inline-item text-decoration-none">
+                            <a class = "text-decoration-none  text-white" href="https://instagram.com/">Instagram</a>
+                        </li>
+                        <li class = "list-inline-item text-decoration-none">
+                            <a class = " text-decoration-none  text-white" href="https://twitter.com/">Twitter</a>
+                        </li>
+                    </ul>  -->
+                <!-- <p class="text-center" >1004 Greek Ave Allentown, NJ 12234</p> -->
+                <!-- <p>Copyright 2024 Apolo Greek restaurant.</p> -->
+                <p class="text-center">© 2024 Apolo Greek restaurant's LLC. All rights reserved.</p>
+            </div>
+
+            <div class="col ">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item text-center"><a class="text-white text-decoration-none" href="#">Terms
+                            of
+                            services</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Privacy
+                            policy</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Sitemap</a> <p>mod2</p>
+                    </li>
                 </ul>
             </div>
-        <div class="section_container header_container' id=home">
-            <div class="'header_image">
-                <img src="traditional-greek-taverna-with-blue-white-decor_198067-3743.jpg" alt="picture of restaurant">
             </div>
-        
-        </div>
-        <div class="header_container">
-            <h2 class="par"><em>MODERN GREEK CUISINE</em></h2> <!-- this will be in the image -->
-        </div>
-
-
-<!-- insert menu tab-->
-<!-- Insert in bold entrees -->
-        <section class="section_container banner_container" id="speacial">
-            <div class="banner_card">
-            <ul>
-                <img src="lambchops.jpg" alt="lamb chops">
-                <h4> Grilled Lamb Chops</h4>
-                <p>Lamb marinated and grilled to perfection, <br>
-                    Served with olive oil, lemon sauce and rosemary.</p>
-                    <span>$34.99</span>
-            </ul>           
             </div>
-            <div class="banner_car">
-            <ul>
-                <img src ="Chicken-Souvlaki-Bowls-with-Garlic-Fries-1.jpg" alt="chicken souvlaki">
-                <h4>Chicken Souvlaki Bowl</h4> 
-                <p>Grilled chicken with garlic fries, pita bread, <br>
-                    lettuce,vcherry tomatoes, fresh chopped orgegano. </p>  
-                    <span>$23</span>  
-            </ul>
-            </div>
-            <div class="banner_car">
-            <ul>
-                <img src="falafel.jpeg" alt="falafel platter">
-                <h4>Falafel Platter</h4> 
-                <p>Falafel platter with hummus, tabbouleh & makali with<br>
-                sides of fresh lemons, black olives, cucumber, lettuce <br> 
-                and pita bread</p>   
-                    <span>$22</span>   
-            </ul>         
-            </div>
-            <div class="banner_car">
-            <ul>
-                <img src="shrimpsouvlaki.jpeg" alt="shrimpsouvlaki">
-                <h4>Shrimp Souvlaki</h4> 
-                <p> Grilled shrimp in a skillet with Mediterranean <br>
-                    marinade, garlic and fresh herbs </p>   
-                    <span>$17</span>  
-            </ul>          
-            </div>
-            <div class="banner_car">
-            <ul>
-                <img src="Chicken-Gyro.jpeg" alt="ChickenGyro">
-                <h4>Chicken Gyro Sandwhich</h4> 
-                <p>Chicken served on a fluffy pita, with sliced <br>
-                    tomatoes, onions and tzatziki sauce</p>     
-                    <span>$18</span>   
-            </ul>       
-            </div>
-            <div class="banner_car">
-            <ul>
-                <img src="pastitsio.jpeg" alt="pastitsio">
-                <h4>Pastitsio</h4> 
-                <p> Greek lasagna made of layers of pasta, meat <br>
-                    sauce, and a topping of creamy béchamel. </p>   
-                    <span>$24</span> 
-            </ul>         
-            </div>
-        
-        </section>
-
-
-<!-- insert in bold Drnks -->
-    <section class="section_container banner_container" id="speacial">
-        <div class="banner_car">
-        <ul>
-            <img src="louxdrink.jpg" alt="greeksoda">
-            <h4>Loux Greek Soft Drink</h4>
-            <p>Lemon, Orange, Sour Cherry Soda, Gazoza (Lemonade) </p>
-            <span>$8.95</span>
-        </ul>
-        </div>
-        <div class="banner_car">
-        <ul>
-            <img src="juices.jpg" alt="drinks">
-            <h4>Juices</h4>  
-            <p>Orange, Lemon, Kiwi, Pineapple, Peach</p> 
-            <span>$6</span> 
-        </ul>           
-        </div>
-        <div class="banner_car">
-        <ul>
-            <img src="capuccino.jpg" alt="coffee picture">
-            <h4>Coffee</h4>
-            <p>Capuccino, Expresso</p> 
-            <span>$4.50</span>   
-        </ul>           
-        </div>
-        <div class="banner_car">
-        <ul>
-            <img src="refreshments.jpg" alt="soda drinks">
-            <h4>Refreshments (cans)</h4> 
-            <p>Coca-Cola, Sprite, Fanta </p> 
-            <span>$4.75</span>  
-        </ul>
-        </div>
-    </section>
-
-
-<!-- insert in bold Desserts-->
-    <section class="section_container banner_container" id="speacial">
-        <div class="banner_card">
-        <ul>
-            <img src="Bakalava.jpeg" alt="baklava">
-            <h4>Baklava</h4>
-            <p>3 Baklava. Consists of nuts, cinnamon, honey syrup and <br>
-                phyllo sheets. </p>
-             <span>$9</span>
-        <ul>
-        </div>
-        <div class="banner_car">
-        <ul>
-            <img src="Bougatsa.jpeg" alt="">
-            <h4>Bougatsa</h4> 
-            <p>Creamy Greek custard with buttery, crispy phyllo <br>
-                sheet, topped with melted butter, icing and cinnamon.</p> 
-            <span>$11</span>
-        </ul>              
-        </div>
-        <div class="banner_car">
-        <ul>
-            <img src="ricepudding.jpeg" alt="">
-            <h4>Greek Rice Pudding</h4> 
-            <p>Greek dessert made with rice and milk topped with ground cinnamon.</p>
-            <span>$7</span>  
-        </ul>             
-        </div>
-    </section>
-
-
-        <section class="section_container order_container" id="menu">
-            <h2>About Us</h2>
-            <p class="section_description">
-                Welcome to Apollo's Greek Tavern, where the rich flavors and vibrant traditions of Greek cuisine come to life. <br>
-                Rooted in centuries-old recipes passed down through generations, our dishes reflect the essence of Greece fresh <br>
-                ingredients, bold flavors, and a deep connection to the Mediterranean. From succulent grilled meats and fresh <br>
-                seafood to aromatic herbs and spices, every plate tells a story of family, culture, and the celebration of good food. <br>
-                Whether you're savoring a classic moussaka, indulging in freshly made baklava, or sharing a mezze platter with <br>
-                friends, we invite you to experience the warmth and hospitality of Greece right here. Join us for a culinary <br>
-                journey that is authentic as it is unforgettable!
-            </p>
-        </section>
-        </sectiion>
-        <div class="Contact Us">
-            <h2> Please fillout this form for catering services</h2>
-            <input type="Name" name="Name" placeholder="Enter your full name here">
-            <input type="Email" name="Email" placeholder="Enter your email">
-            <input type="Phone number" name="Phone Number" placeholder="Enter your phone number">
-            <input type="Guest count" name="Guest count" placeholder="Enter number of guests">
-            <input type="Description" placeholder="Tell us about your event">  
-
-<footer>
-    <p>1004 Greek Ave Allentown, NJ 12234</p>
-</footer>
-
+        </footer>
+<script src="assets/javascript/order.js"></script>
 </body>
+
 </html>
