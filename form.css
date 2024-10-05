@@ -1,3 +1,4 @@
+
 .top-right {
     position: absolute;
     top: 0;
@@ -75,3 +76,34 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 968px) {
+  .logo {
+      text-align: left;
+      margin: 0;
+  }
+
+  .modal-content {
+      width: 100%;
+      margin: 10% auto;
+  }
+
+  .close {
+      font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .logo {
+      text-align: left;
+      margin: 0;
+  }
+
+  .modal-content {
+      width: 100%;
+      margin: 10% auto;
+  }
+
+  .close {
+      font-size: 24px;
+  }
+}
