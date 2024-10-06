@@ -27,6 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
 			return;
 		}
 
+
+        const phonePattern = /^\d{3}-\d{3}-\d{4}$/;
+        if (!phonePattern.test(phone)) {
+            alert('Please enter a valid phone number in XXX-XXX-XXXX format.');
+            event.preventDefault();
+            return;
+        }
+
+
 		if (!validatePhoneNumber(phone)) {
 			alert('Invalid phone number');
 			event.preventDefault();
@@ -52,32 +61,27 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('date', date);
         localStorage.setItem('description', description);
 
-        // Show the modal
 		const modal = document.getElementById('successModal');
 		const span = document.getElementsByClassName('close')[0];
 
 		modal.style.display = 'block';
-
-		// Close the modal when the user clicks on <span> (x)
 		span.onclick = function() {
 			modal.style.display = 'none';
 		}
 
-		// Close the modal when the user clicks anywhere outside of the modal
 		window.onclick = function(event) {
 			if (event.target == modal) {
 				modal.style.display = 'none';
 			}
 		}
 
-		event.preventDefault(); // Prevent form submission for demonstration purposes
+		event.preventDefault(); 
 
         document.querySelector('form').reset();
 	});
 
-	function validatePhoneNumber(phone) {
-		// Add phone validation logic here
-		return true; // Placeholder
+	function validatePhoneNumber(_phone) {
+		return true;
 	}
 
 	function validateGuestCount(guests) {
