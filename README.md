@@ -53,7 +53,9 @@ Denzel -
 
 The following image demonstrates the web application's appearance:
 
+![Home page for the restaurant](./landingpage.jpg)
+
 ![Website for Apollo's Greek Tavern](./demo.PNG)
 
-![Form in whihc customers will fillout for catering services](./demo2.PNG)
+![Form in which customers will fillout for catering services](./demo2.PNG)
 
