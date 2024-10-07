@@ -57,3 +57,4 @@ The following image demonstrates the web application's appearance:
 
 ![Form in whihc customers will fillout for catering services](./demo2.PNG)
 
+![alt text](image.png)
