@@ -53,8 +53,12 @@ Denzel -
 
 The following image demonstrates the web application's appearance:
 
-![Website for Apollo's Greek Tavern](./demo.PNG)
+![Home page for the restaurant](./assets/images/landingpage.jpg)
 
-![Form in whihc customers will fillout for catering services](./demo2.PNG)
+![Website for Apollo's Greek Tavern](./assets/images/demo.PNG)
 
-![alt text](image.png)
+![Form in which customers will fillout for catering services](./assets/images/demo2.PNG)
+
+## Link
+* Deployed: https://gitkaviyarasi.github.io/apollogreektavern/
+* Github repo:  https://github.com/gitkaviyarasi/apollogreektavern
